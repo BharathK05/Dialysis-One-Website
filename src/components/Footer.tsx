@@ -37,7 +37,7 @@ export default function Footer() {
           <ul className="space-y-3 text-sm text-white/60">
             <li><Link href="#features" className="hover:text-white transition-colors">Features</Link></li>
             <li><Link href="#" className="hover:text-white transition-colors">Accessibility</Link></li>
-            <li><Link href="#download" className="hover:text-white transition-colors">Download</Link></li>
+            <li><Link href="https://apps.apple.com/in/app/dialysisone/id6759790005" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Download</Link></li>
           </ul>
         </div>
 
@@ -57,10 +57,10 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-4">
            {/* Mock App Store Badge */}
-           <div className="bg-white text-black px-4 py-2 rounded-lg flex items-center gap-2 text-xs font-semibold cursor-pointer hover:scale-105 transition-transform">
+           <a href="https://apps.apple.com/in/app/dialysisone/id6759790005" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-4 py-2 rounded-lg flex items-center gap-2 text-xs font-semibold cursor-pointer hover:scale-105 transition-transform">
              <Activity className="w-4 h-4" />
              Download on the App Store
-           </div>
+           </a>
         </div>
       </div>
     </footer>

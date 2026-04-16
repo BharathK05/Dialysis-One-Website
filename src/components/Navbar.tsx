@@ -20,7 +20,7 @@ export default function Navbar() {
       </Link>
 
       <div>
-        <Link href="#download">
+        <Link href="https://apps.apple.com/in/app/dialysisone/id6759790005" target="_blank" rel="noopener noreferrer">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
